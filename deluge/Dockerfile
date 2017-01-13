@@ -22,14 +22,11 @@ LABEL org.freenas.interactive="false" \
           {								\
               \"env\": \"TZ\",						\
               \"descr\": \"Timezone - eg Europe/London\",		\
-              \"optional\": true					\
 
-                \"env\": \"PUID\",						\
-                \"descr\": \"ni idea",		\
-                \"optional\": true					\
+              \"env\": \"PUID\",						\
+              \"descr\": \"ni idea",		\
 
-                \"env\": \"PGID\",						\
-                \"descr\": \"ni idea",		\
-                \"optional\": true					\
+              \"env\": \"PGID\",						\
+              \"descr\": \"ni idea",		\
           }								\
       ]"
