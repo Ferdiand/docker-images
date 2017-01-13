@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-ce.lastest
+FROM gitlab/gitlab-ce
 LABEL org.freenas.interactive="false"			\
       org.freenas.version="1" 			\
       org.freenas.upgradeable="true" 			\
