@@ -6,21 +6,21 @@ LABEL org.freenas.interactive="false"			\
       org.freenas.autostart="true" 			\
       org.freenas.bridged="true" 			\
       org.freenas.web-ui-protocol="http" 		\
-      org.freenas.web-ui-port=80 			\
-      org.freenas.web-ui-path="web" 			\
+      org.freenas.web-ui-port=""			\
+      org.freenas.web-ui-path="" 			\
       org.freenas.port-mappings="443:443/tcp,80:80/tcp,22:22/tcp" 					\
       org.freenas.volumes="[				\
           {						\
               \"name\": \"/etc/gitlab\",			\
-              \"descr\": \"gitlab dir\"	\
+              \"descr\": \"config directory\"	\
           },						\
           {						\
               \"name\": \"/var/opt/gitlab\",			\
-              \"descr\": \"opt\"		\
+              \"descr\": \"data directrory"		\
           }						\
           {						\
               \"name\": \"/var/log/gitlab\",			\
-              \"descr\": \"log\"		\
+              \"descr\": \"log directory\"		\
           }						\
       ]"						\
       org.freenas.settings="[ 				\
