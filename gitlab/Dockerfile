@@ -16,7 +16,7 @@ LABEL org.freenas.interactive="false"			\
           },						\
           {						\
               \"name\": \"/var/opt/gitlab\",			\
-              \"descr\": \"data directrory"		\
+              \"descr\": \"data directrory\"		\
           }						\
           {						\
               \"name\": \"/var/log/gitlab\",			\
